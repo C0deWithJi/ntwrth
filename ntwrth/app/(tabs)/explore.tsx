@@ -91,6 +91,57 @@ export default function TabTwoScreen() {
           ),
         })}
       </Collapsible>
+      <Collapsible title="Screens and navigation">
+        <Collapsible title="Home"> 
+          <ThemedText>
+            The home screen will contain the unlimited scroll feed of content posted by peers, coaches, and advertisments.  
+          </ThemedText> 
+        </Collapsible>
+        <Collapsible title="Explore">
+        <ThemedText>
+          This tab offers a search menu:  , -for coaching accounts- parents, coaches, .
+        </ThemedText>
+        <Collapsible title="Athlete Accounts">
+        <ThemedText>
+          User can search for coaches, workouts and peers (other athletes)
+        </ThemedText>
+        </Collapsible>
+        <Collapsible title="Coaching Accounts">
+        <ThemedText>
+          User can search for athletes, parents, sponsors and other coaches
+        </ThemedText>
+        </Collapsible>
+          <Collapsible title="Parental Accounts">
+            <ThemedText>
+                User can search for coaches, workouts and sponsors
+            </ThemedText>
+          </Collapsible>
+          <Collapsible title="Sponsor Accounts">
+            <ThemedText>
+                User can search for coaches, workouts and parents
+            </ThemedText>
+          </Collapsible>
+        </Collapsible>
+      </Collapsible>
+      <Collapsible title="Database">
+        <ThemedText>
+          Database used for this application is Firebase.
+        </ThemedText>
+        <Collapsible title="Tables">
+          <ThemedText>
+            1. Athletes
+          </ThemedText>
+          <ThemedText>
+            2. Coaches
+          </ThemedText>
+          <ThemedText>
+            3. Parents
+          </ThemedText>
+          <ThemedText>
+            4. Sponsors
+          </ThemedText>
+        </Collapsible>
+      </Collapsible>
     </ParallaxScrollView>
   );
 }
